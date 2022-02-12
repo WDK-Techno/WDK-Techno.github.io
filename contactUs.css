@@ -1,0 +1,27 @@
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+
+.show {display: block;}
+.hide {display: none;}
+
+body {
+
+    background-color: rgba(142, 167, 236, 0.3);
+
+
+}
+ul.tablinks {list-style:none; margin:10px 0 0 10px; padding: 0;display: inline-block }
+ul.tablinks li {display : inline; padding: 10px 20px; background: #eee;font-weight: bold;box-shadow: 2px 0 2px #aaa; }
+ul.tablinks li:hover {background-color: rgb(184, 252, 229);}
+ul.tablinks li.active {color: white;background:rgb(168, 219, 243);}
+
+.tabcontainer {
+    margin-left: 10px; margin-top: 30px;
+    border-style: solid; border-color: rgb(208, 200, 216) ; border-radius: 15px;
+    background: rgb(236, 243, 243);
+    padding-left: 30px;
+}
+
+#erro1 , #erro2 {
+    font-family: monospace;
+    color: red;
+}

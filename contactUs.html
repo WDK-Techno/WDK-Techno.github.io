@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+    
+    <h1>Contact Us</h1>
+    
+    <!-- address -->
+    <h6>
+        LifeCare Hospital<br>
+        Passara Road,<br>
+        Badulla
+    </h6>
+
+    <div class="container">
+        <ul class="tablinks">
+            <li id="tab-1" onclick="selectTab(1)">Suggestions/Complaints</li>
+            <li id="tab-2" onclick="selectTab(2)">Contact Details</li>
+            <li id="tab-3" onclick="selectTab(3)">Location</li>
+        </ul>
+
+        <div class="tabcontainer">
+            <div class="show">
+                <h3>Defult page</h3>
+            </div>
+            <div id="tabcontent-1" class="hide">
+                <h2>Suggestions/Complaints</h2>
+                <!-- form -->
+                <form name="contactUs" onsubmit="return checkForm()">
+                    <label for="name">Your Name* : </label><br>
+                    <input type="text"  name="name"><label id="erro1"></label><br><br>
+                    <label for="email" name="email">Email :</label><br>
+                    <input type="email"  name="email"><br><br>
+                    <label for="telNo" name="telNo">Telephone :</label><br>
+                    <input type="tel"  name="telNo"><br><br>
+                    <label for="message" name="message">Message* :</label><br>
+                    <textarea name="message"  cols="30" rows="10"></textarea><label id="erro2"></label><br>
+                    <br>
+                    <input type="submit" value="Send">
+                    <br><br>
+                </form>
+            </div>
+            <div id="tabcontent-2" class="hide">
+                <h2>Contact Details</h2>
+            </div>
+            <div id="tabcontent-3" class="hide">
+                <h2>Location</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="contactUs.js"></script>
+</body>
+</html>
