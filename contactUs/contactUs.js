@@ -28,3 +28,9 @@ function checkForm(){
     }
 
 }
+
+//pre loader
+
+window.addEventListener("load",function(){
+    document.querySelector(".loader").classList.add("hide");
+});
