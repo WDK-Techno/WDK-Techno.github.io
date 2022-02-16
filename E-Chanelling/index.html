@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Chanelling</title>
+    <link rel="stylesheet" href="eChanelling.css">
+</head>
+<body>
+    <h1>E-Chanelling</h1>
+
+    <div>
+        <form action="">
+            <div>
+                <label for="docType">Category of Doctor :</label> 
+                <select name="docType" id="docType" onchange="updateDocType()">
+                    <option value="docType-1" id="docType-1">General Surgeons</option>
+                    <option value="docType-2" id="docType-2">Cardiac </option>
+                    <option value="docType-3" id="docType-3">Dental </option>
+                    <option value="docType-4" id="docType-4">Neurology </option>
+                    <option value="docType-5" id="docType-5">Orthopaedic </option>
+                    <option value="docType-6" id="docType-6">Ophthalmology</option>
+                    <option value="docType-7" id="docType-7">Paediatric</option>
+                    <option value="docType-8" id="docType-8">Physicians</option>
+                    <option value="docType-9" id="docType-9">Respiratory Medicine</option>
+                    <option value="docType-10" id="docType-10">Urology</option>
+                </select>
+            </div>
+            
+            <div>    
+                <label for="">Doctor Name :</label>
+                <div id="list-docType-1" class="show">
+                    <select name="list-docType-1" >
+                        <option value="type1-doc1">Dr.D.M prasad</option>
+                        <option value="type1-doc2">Dr.Pathum Premanath</option>
+                        <option value="type1-doc3">Dr.(Mrs) Omali wimalarathne </option>
+                    </select>
+                </div>
+                <div id="list-docType-2" class="hide">
+                    <select name="list-docType-2" >
+                        <option value="type2-doc1">Dr.Thisara Herath</option>
+                        <option value="type2-doc2">Dr.(Mrs)Nimali Sanjeewani</option>
+                        <option value="type2-doc3">Dr.Rasika Fernando</option>
+                    </select>
+                </div>
+                <div id="list-docType-3" class="hide">
+                <select name="list-docType-3" >
+                    <option value="type3-doc1">Dr.I.P.Kahawita</option>
+                    <option value="type3-doc2">Dr.M.Sheriff</option>
+                    
+                </select>
+                </div>
+                <div id="list-docType-4" class="hide">
+                    <select name="list-docType-4" >
+                        <option value="type4-doc1">Dr.K.Umashankar</option>
+                        <option value="type4-doc2">Dr.(Mrs)Renuka Herath</option>
+                        
+                    </select>
+                </div>
+                <div id="list-docType-5" class="hide">
+                    <select name="list-docType-5" >
+                        <option value="type5-doc1">Dr.K.S.Pathinayaka</option>
+                        <option value="type5-doc2">Dr.Ravimal Galappaththi</option>
+                        <option value="type5-doc3">Dr.M.G.Mafaz</option>
+                    </select>
+                </div>
+                <div id="list-docType-6" class="hide">
+                    <select name="list-docType-6" >
+                        <option value="type6-doc1">Dr.R.N.Bandara</option>
+                        <option value="type6-doc2">Dr.(Mrs)Isanka Thabrew</option>
+                        
+                    </select>
+                </div>
+                <div id="list-docType-7" class="hide">
+                    <select name="list-docType-7" >
+                        <option value="type7-doc1">Dr.J.H.S.Cooray</option>
+                        <option value="type7-doc2">Dr.Rasika Samarawikrama</option>
+                        
+                    </select>
+                </div>
+                <div id="list-docType-8" class="hide">
+                    <select name="list-docType-8" >
+                        <option value="type8-doc1">Dr.(Mrs)Sudharma Hewawita</option>
+                        <option value="type8-doc2">Prof.R.Wimlarathna</option>
+                        <option value="type8-doc3">Dr.Dulip Rajapaksha</option>
+                        <option value="type8-doc4">Prof.Menaka Kalupahana</option>
+                        <option value="type8-doc5">Dr.Waruna Gunathilaka</option>
+                        <option value="type8-doc6">Dr.(Mrs) Thilini Bhagya</option>
+                    </select>
+                </div>
+                <div id="list-docType-9" class="hide">
+                    <select name="list-docType-9" >
+                        <option value="type9-doc1">Dr.Adithya Jagoda</option>
+                        <option value="type9-doc2">Dr.Dushan Jayasekara</option>
+                        
+                    </select>
+                </div>
+                <div id="list-docType-10" class="hide">
+                    <select name="list-docType-10" >
+                        <option value="type10-doc1">Dr.Mihira Bandara</option>
+                        <option value="type10-doc2">Dr.(Mrs) Joshiga Raveekumar</option>
+                        <option value="type10-doc3">Dr.Ruwan Padmakumara</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="PName">Patient Name :</label>
+                <input type="text" id = "pName" name="pName">
+            </div>
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" id="">
+            </div>
+            <div>
+                <label for="tel">Tel No :</label>
+                <input type="tel" name="" id="">
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" name="" id="">
+            </div>
+            <div>
+               <input type="submit" value="Submit">
+               <input type="reset"> 
+            </div>
+
+
+        </form>
+    </div>
+    <script src="eChanelling.js"></script>
+</body>
+</html>
