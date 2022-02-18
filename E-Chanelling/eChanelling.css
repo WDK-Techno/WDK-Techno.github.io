@@ -21,6 +21,16 @@ label {
     margin-left: 25%;
 
 }
+
+@media only screen and (max-width:500px){
+    /* mobile phones */
+    #container{
+        width: 88%;
+        margin-left: 1px;
+    }
+
+}
+
 input{
     width: 100%;
     padding: 10px 0px;
